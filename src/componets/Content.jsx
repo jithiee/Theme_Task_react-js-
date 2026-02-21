@@ -5,7 +5,7 @@ const Content = () => {
     const {theme} = useContext(ThemeContext)
 
   return (
-    <div  style={{backgroundColor:theme,color : theme=='black'? 'white'  : '' }}>
+    <div  style={{backgroundColor:theme,color : theme === 'black'? 'white'  : '' }}>
       <h2 >Content page</h2> <hr />
        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Accusamus, exercitationem. Repellat alias ullam non qui et! Velit, iusto perferendis? Amet qui pariatur dolor accusantium similique nostrum distinctio facere numquam. Dolore.
       Vitae quae dignissimos aspernatur perspiciatis, distinctio incidunt praesentium libero iusto, veniam eos quam enim nobis sapiente dolor ducimus corporis. Facilis vitae minus optio, ipsa sapiente magnam quidem sint at inventore?
